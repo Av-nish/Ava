@@ -17,7 +17,7 @@ The discord bot for our Coding Club IIT Jammu discord(development server) writte
 2. Clone this repository and open terminal, change directory to the repo.
 3. Run `python -m venv ./venv` to create virtual environment.
 4. Run `venv\Scripts\activate` command to activate virtual environment.
-5. Run `pip install -r reqirements.txt` command to install dependencies.
+5. Run `pip install -r requirements.txt` command to install dependencies.
 6. Create a **.env** file in the folder, containing
 
 ```
@@ -26,6 +26,7 @@ SERVER = <server_id>
 MONGODB = <mongodb_uri>
 DEBUG = "True"
 DEPARTMENT_CHANNEL = <department_selection_channel_id>
+DOCUMENT = <database_name>
 LOG_CHANNEL = <log_channel_id>
 DEPARTMENT_MESSAGE = <department_selection_message>
 SENDGRID_API_KEY = <sendgrid_key_optional_with_DEBUG>
